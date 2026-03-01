@@ -1,0 +1,51 @@
+{
+  "name": "meadow-connection-mongodb",
+  "version": "1.0.0",
+  "description": "Meadow MongoDB Connection Plugin",
+  "main": "source/Meadow-Connection-MongoDB.js",
+  "scripts": {
+    "coverage": "npx quack coverage",
+    "test": "npx quack test"
+  },
+  "mocha": {
+    "diff": true,
+    "extension": [
+      "js"
+    ],
+    "package": "./package.json",
+    "reporter": "spec",
+    "slow": "75",
+    "timeout": "5000",
+    "ui": "tdd",
+    "watch-files": [
+      "source/**/*.js",
+      "test/**/*.js"
+    ],
+    "watch-ignore": [
+      "lib/vendor"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevenvelozo/meadow-connection-mongodb.git"
+  },
+  "keywords": [
+    "meadow",
+    "mongodb",
+    "database"
+  ],
+  "author": "Steven Velozo <steven@velozo.com> (http://velozo.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevenvelozo/meadow-connection-mongodb/issues"
+  },
+  "homepage": "https://github.com/stevenvelozo/meadow-connection-mongodb",
+  "devDependencies": {
+    "fable": "^3.1.55",
+    "quackage": "^1.0.58"
+  },
+  "dependencies": {
+    "fable-serviceproviderbase": "^3.0.18",
+    "mongodb": "^6.12.0"
+  }
+}
