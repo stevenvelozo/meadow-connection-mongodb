@@ -42,7 +42,7 @@ sequenceDiagram
 	Fable->>MCP: constructor(fable, options)
 	MCP->>MCP: Read MongoDB config
 	MCP->>MCP: Normalize property names
-	Note over MCP: Server→host, Port→port, etc.
+	Note over MCP: Server->host, Port->port, etc.
 
 	alt Auto-Connect Enabled
 		MCP->>MCP: connect()
@@ -102,7 +102,7 @@ flowchart LR
 		SET[fable.settings.MongoDB]
 	end
 	subgraph Normalization
-		NORM["Property Mapping<br/>Server → host<br/>Port → port<br/>User → user<br/>Password → password<br/>Database → database<br/>ConnectionPoolLimit → maxPoolSize"]
+		NORM["Property Mapping<br/>Server -> host<br/>Port -> port<br/>User -> user<br/>Password -> password<br/>Database -> database<br/>ConnectionPoolLimit -> maxPoolSize"]
 	end
 	subgraph Output
 		URI["Connection URI<br/>mongodb://[user:pass@]host:port/db"]
