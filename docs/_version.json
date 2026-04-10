@@ -2,6 +2,6 @@
 	"Name": "meadow-connection-mongodb",
 	"Version": "1.0.2",
 	"Description": "Meadow MongoDB Connection Plugin",
-	"GeneratedAt": "2026-04-10T02:05:29.717Z",
-	"GitCommit": "19868f9"
+	"GeneratedAt": "2026-04-10T03:20:10.111Z",
+	"GitCommit": "3ef8f98"
 }
