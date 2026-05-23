@@ -1,5 +1,7 @@
 # meadow-connection-mongodb
 
+> **[&#9654; Read the Meadow-Connection-Mongodb Documentation](https://stevenvelozo.github.io/meadow-connection-mongodb/)** &mdash; interactive docs with the full API reference.
+
 MongoDB connection service for the Meadow data access layer.
 
 [![Coverage Status](https://coveralls.io/repos/github/stevenvelozo/meadow-connection-mongodb/badge.svg?branch=main)](https://coveralls.io/github/stevenvelozo/meadow-connection-mongodb?branch=main)
